@@ -10,12 +10,18 @@ Aprs using Lora sx1278
 
 Clone of this project, using a SX1278 Lora module or just the IC SX1278 as aprs tx: https://github.com/DO4AS/jufo-project-radiosonde
 
-PCB for both LORA sx1278 module and barebone 1278 ic, make sure you get the correct module, at least 3 Lora models avalible with different pinout.
+PCB for both LORA sx1278 module and barebone 1278 ic, make sure you get the correct module, at least 4 Lora models avalible with different pinout.
 
-The sketch on the 328 works at 8Mhz or16Mhz
+The sketch on the 328 works at 8Mhz or 16Mhz, Im using 8Mhz to save 5mA compared to 16Mhz
 
-Fuses used FD D9 FE
+Fuses for 328: FD D9 FE
 
-1278-Micro_2021-10-09.zip is the CAM files for pcb production
+1278-Micro_2021-10-09.zip is the CAM files for pcb production/order
 
+Latest PCB have the option for tcxo drive of the 1278, but the standard 32Mhz xo footprint can stil be used, gps antenna moved to the "top" + some small tweaks and fixes.
 
+Adjust the "const float baud_adj = 0.952;" setting for 3 or 4 "strokes" in Direwolf, see info here https://forums.qrz.com/index.php?threads%2Fdirewolf-aprs-output.600522%2F&fbclid=IwAR0wUjOZmizGcujBzJqjSxanfelDZbqJ7fJmPpOwpc3_y3LSQ0mrltJrEoM   
+I have the best decode rate with 0.952 - 0.964 depending on xo/tcxo used
+
+Also test the transmitted audio against this program, if it decodes the audio it shouls maximize the chanses of your signal to be decoded while in flight
+https://sourceforge.net/projects/qtmm/

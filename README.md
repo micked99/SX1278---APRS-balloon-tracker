@@ -25,3 +25,5 @@ I have the best decode rate with 0.952 - 0.964 depending on xo/tcxo used
 
 Also test the transmitted audio against this program, if it decodes the audio it shouls maximize the chanses of your signal to be decoded while in flight
 https://sourceforge.net/projects/qtmm/
+
+DG4NOB version incorporates more telemetry readings like Temp from internal 328 sensor, Voltage, Vertical speed in m/s etc

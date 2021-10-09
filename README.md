@@ -3,6 +3,8 @@
 ![IMG_20211009_104827](https://user-images.githubusercontent.com/9722781/136651467-f8c7f292-17d4-425b-af63-6b4528d9850e.jpg)
 ![IMG_20211009_103845](https://user-images.githubusercontent.com/9722781/136651468-285830e9-37b0-4a31-923c-8c0b020c9f74.jpg)
 ![IMG_20211009_103855](https://user-images.githubusercontent.com/9722781/136651470-6fefe74c-c7fe-49d6-b26a-85049be431f5.jpg)
+![2021-10-09 PCB_SX1278_Micro](https://user-images.githubusercontent.com/9722781/136651522-ede4b76a-fefe-42e4-91b5-9781e72c554d.png)
+
 # SX1278
 Aprs using Lora sx1278
 

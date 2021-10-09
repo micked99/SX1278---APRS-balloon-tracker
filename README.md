@@ -16,3 +16,6 @@ The sketch on the 328 works at 8Mhz or16Mhz
 
 Fuses used FD D9 FE
 
+1278-Micro_2021-10-09.zip is the CAM files for pcb production
+
+

@@ -10,7 +10,8 @@
 # SX1278
 Aprs using Lora sx1278
 
-Clone of this project, using a SX1278 Lora module or just the IC SX1278 as aprs tx: https://github.com/DO4AS/jufo-project-radiosonde
+Clone of this project, using a SX1278 Lora module or just the IC SX1278 as aprs tx, ALL credit goes to https://github.com/DO4AS/jufo-project-radiosonde
+I have only made the pcb:s and edited the fw in a small way that fits my needs.
 
 PCB for both LORA sx1278 module and barebone 1278 ic, make sure you get the correct module, at least 4 Lora models avalible with different pinout.
 

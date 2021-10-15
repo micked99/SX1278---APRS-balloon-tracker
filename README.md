@@ -23,9 +23,9 @@ Fuses for 328: FD D9 FE
 Latest PCB have the option for tcxo drive of the 1278, but the standard 32Mhz xo footprint can stil be used, gps antenna moved to the "top" + some small tweaks and fixes.
 
 Adjust the "const float baud_adj = 0.952;" setting for 3 or 4 "strokes" in Direwolf, see info here https://forums.qrz.com/index.php?threads%2Fdirewolf-aprs-output.600522%2F&fbclid=IwAR0wUjOZmizGcujBzJqjSxanfelDZbqJ7fJmPpOwpc3_y3LSQ0mrltJrEoM   
-I have the best decode rate with 0.952 - 0.964 depending on xo/tcxo used
+I have the best decode rate with 0.950 - 0.964 depending on xo/tcxo used, so you need to tweek this for every board.
 
-Also test the transmitted audio against this program, if it decodes the audio it shouls maximize the chanses of your signal to be decoded while in flight
+Also test the transmitted audio against this program - AFSK1200, if it decodes the audio it should maximize the chanses of your signal to be decoded while in flight
 https://sourceforge.net/projects/qtmm/
 
 DG4NOB version incorporates more telemetry readings like Temp from internal 328 sensor, Voltage, Vertical speed in m/s etc

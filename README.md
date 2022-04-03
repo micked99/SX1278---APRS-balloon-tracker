@@ -30,3 +30,5 @@ Also test the transmitted audio against this program - AFSK1200, if it decodes t
 https://sourceforge.net/projects/qtmm/
 
 DG4NOB version incorporates more telemetry readings like Temp from internal 328 sensor, Voltage, Vertical speed in m/s etc
+
+TBTracker and horusbinary_tracker use the same pcb layout and is 100% compatible with the above, those fw transmitt, 4FSK, RTTY and Lora, original authors git at  https://github.com/RoelKroes  with small adjustment to fit "my" pcb layout

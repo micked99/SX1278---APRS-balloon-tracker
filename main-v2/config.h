@@ -8,8 +8,8 @@
 
  
  
-  #define aprs_source_callsign "SA6BSS"
-  #define aprs_source_ssid 10
+  #define aprs_source_callsign "SA8BSS"
+  #define aprs_source_ssid 11
   
   #define aprs_destination_callsign "APMON"
   #define aprs_digipeater "WIDE0"
@@ -53,3 +53,4 @@
   // #define enable_serial_debug
   #define serial_baud_rate 9600
   #endif /* CONFIG_H_ */
+

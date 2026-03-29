@@ -150,7 +150,7 @@ const float australia_vertices_long[] = {
     160.000,
     160.000
 };
-
+/*
 const float uk_vertices_lat[] = {
 59.000,
 54.000,
@@ -172,7 +172,7 @@ const float uk_vertices_long[] = {
 -1.000,
 -3.000
 };
-
+*/
 const float brazil_vertices_lat[] = {
       6.000,
     -33.000,
@@ -208,7 +208,7 @@ float geofence::get_aprs_frequency(float gps_latitude, float gps_longitude)
     if(gps_latitude == 0 && gps_longitude == 0) return aprs_frequency_default;
 
     // uk
-    if (check_if_point_is_in_geographic_region (sizeof(uk_vertices_lat)/sizeof(uk_vertices_lat[0]), uk_vertices_lat, uk_vertices_long, gps_latitude, gps_longitude)) return aprs_frequency_uk;
+    // if (check_if_point_is_in_geographic_region (sizeof(uk_vertices_lat)/sizeof(uk_vertices_lat[0]), uk_vertices_lat, uk_vertices_long, gps_latitude, gps_longitude)) return aprs_frequency_uk;
        
     // australia
     if (check_if_point_is_in_geographic_region (sizeof(australia_vertices_lat)/sizeof(australia_vertices_lat[0]), australia_vertices_lat, australia_vertices_long, gps_latitude, gps_longitude)) return aprs_frequency_australia;

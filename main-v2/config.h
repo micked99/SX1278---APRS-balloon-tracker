@@ -28,7 +28,7 @@
   #define aprs_frequency_thailand    145.525  // aprs frequency thailand in MHz
   #define aprs_frequency_newzealand  144.575  // aprs frequency newzealand in MHz
   #define aprs_frequency_australia   145.175  // aprs frequency australia in MHz
-  #define aprs_frequency_uk          433.500  // aprs frequency uk ism band in MHz
+ // #define aprs_frequency_uk          433.500  // aprs frequency uk ism band in MHz
   #define aprs_frequency_brazil      145.570  // aprs frequency brazil in MHz
  
   #define additional_aprs_comment "" // Additional comment
